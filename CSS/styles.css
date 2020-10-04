@@ -1,0 +1,42 @@
+#hero {
+    background: rgb(233, 233, 235);
+    width: 91.63%;
+    height: 200px;
+    margin-left: 4.1%;
+    margin-top: 1em;
+    padding-top: 1.5rem;
+    display: flex;
+}
+h2 {
+    text-align: center;
+    color: #222252;
+    margin: 2.5rem;
+}
+#background-btn {
+    background: rgb(90, 90, 90);
+}
+#backgroundtable {
+    background: rgb(59, 59, 59);
+}
+.font-color-table {
+    color: white;
+}
+#background-btn:hover {
+    background-color: rgb(28, 26, 160);
+    transition: background-color 1s;
+  }
+tr:hover {
+    background-color:rgb(28, 26, 160);
+    transition: background-color 1s;
+  }
+.card {
+    background: #222252;
+    color: white;
+    border-color: white;
+    display: inline-block;
+    margin: 2rem;
+  }
+#users-info {
+    padding: 2px;
+    text-align: center;
+  }

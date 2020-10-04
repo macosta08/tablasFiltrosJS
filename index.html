@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>Document</title>
+</head>
+<body>
+  <section id="hero">
+    <h2>Usuarios Academlo</h2>
+    <div id="container-btn" class=" container m-5 d-flex justify-content-end">
+      <button onclick="printUsers()" id="background-btn" class="btn ml-1 btn-secondary">Mostrar Todos</button>
+      <button onclick="academloUsers()" id="background-btn" class="btn ml-1 btn-secondary">Email Academlo</button>
+      <button onclick="averageAgeUsers()" id="background-btn" class="btn ml-1 btn-secondary">Edad entre 20 - 40</button>
+      <button onclick="onlyWomenUsers()" id="background-btn"class="btn ml-1 btn-secondary">Solo Mujeres</button>
+      <button onclick="printInfoUsers()" id="background-btn" class="btn ml-1 btn-secondary">Social</button>
+    </div>
+  </section>
+   <div id="backgroundtable" class="m-5">
+    <table class="table font-color-table">
+        <thead>
+          <tr>
+            <th>First</th>
+            <th>Age</th>
+            <th>Email</th>
+            <th>Gender</th>
+          </tr>
+        </thead>
+        <tbody id='table-users-body'>
+        </tbody>
+      </table>
+   </div>
+     <div id="users-info" class="container mt-5"></div>
+     <script type="module"src="./JS/newJs.js"></script>
+</body>
+  
+</html>
